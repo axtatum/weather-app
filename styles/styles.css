@@ -1,0 +1,92 @@
+/* Background styles 
+body {
+    background-color: #cdecff;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(307.06, 89%, 89%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(289.71, 100%, 87%) 0, transparent 55%);
+}
+
+/* Glassmorphism card effect
+.card {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.59);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+*/
+
+body {
+  font-family: Roboto;
+  background-color: #BDCFE2;
+  background-image: 
+  radial-gradient(at 47% 33%, hsl(307.06, 89%, 89%) 0, transparent 59%), 
+  radial-gradient(at 82% 65%, hsl(289.71, 100%, 87%) 0, transparent 55%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.section {
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.59);
+  border: 10px;
+  box-shadow: 7px 5px 35px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-search {
+  background-color: rgb(230, 229, 233)5, 255, 255, 0.59);
+  border-radius: 5px;
+  border: white 2px;
+  width: 80%;
+  height: 52px;
+  padding: 5px;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+
+.form-search__button {
+  background-color: rgb(156, 124, 253);
+  border-radius: 2px;
+  border: #f3eefa;
+  width: 110px;
+  height: 50px;
+  color: #f3eefa;
+  font-weight: 300;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0 60px 0;
+}
+
+.h1 {
+  font-family: Roboto;
+  font-size: 40px;
+}
+
+.temp-number {
+  position: relative;
+  top: 40px;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+main {
+  border-color: purple;
+}
+
+span {
+  color: coral;
+  font-weight: 100;
+}
