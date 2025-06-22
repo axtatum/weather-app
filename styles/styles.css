@@ -18,11 +18,9 @@ body {
 
 body {
   font-family: Roboto;
-  background-color: #BDCFE2;
-  background-image: 
-  radial-gradient(at 47% 33%, hsl(307.06, 89%, 89%) 0, transparent 59%), 
-  radial-gradient(at 82% 65%, hsl(289.71, 100%, 87%) 0, transparent 55%);
-  background-repeat: no-repeat;
+  background-color: #ff1212;
+  background: radial-gradient(329px at 3.1% 9.3%, rgb(251, 204, 235) 28.1%, rgba(255, 114, 114, 0.15) 100.7%);
+  background-repeat: repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -55,7 +53,7 @@ body {
 }
 
 .form-search__button {
-  background-color: rgb(156, 124, 253);
+  background-color: rgb(253, 124, 178);
   border-radius: 5px;
   border: #f3eefa;
   width: 110px;
